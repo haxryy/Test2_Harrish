@@ -91,7 +91,7 @@ forge install
 ### 3. Install Frontend Dependencies
 
 ```bash
-cd frontend
+cd frntend
 npm install
 ```
 
@@ -135,7 +135,7 @@ export const CONTRACT_ADDRESS = 'YOUR_DEPLOYED_CONTRACT_ADDRESS'
 ### 4. Start Frontend Application
 
 ```bash
-cd frontend
+cd frntend
 npm run dev
 ```
 
@@ -183,7 +183,7 @@ forge verify-contract --chain-id 11155111 --num-of-optimizations 200 --watch --c
 
 1. **Install Dependencies**
    ```bash
-   cd frontend
+   cd frntend
    npm install
    ```
 
@@ -199,14 +199,14 @@ forge verify-contract --chain-id 11155111 --num-of-optimizations 200 --watch --c
 ### Development Server
 
 ```bash
-cd frontend
+cd frntend
 npm run dev
 ```
 
 ### Build for Production
 
 ```bash
-cd frontend
+cd frntend
 npm run build
 npm run preview
 ```
@@ -269,7 +269,7 @@ forge coverage
 Run frontend tests (if implemented):
 
 ```bash
-cd frontend
+cd frntend
 npm run test
 ```
 

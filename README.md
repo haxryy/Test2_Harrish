@@ -151,7 +151,9 @@ Create a `.env` file in the contracts directory:
 # contracts/.env
 SEPOLIA_RPC_URL=https://api.zan.top/eth-sepolia
 PRIVATE_KEY=your_private_key_here
+CONTRACT_ADDRESS=deplyed_contract_address
 ETHERSCAN_API_KEY=your_etherscan_api_key
+
 ```
 
 ### Deployment Commands

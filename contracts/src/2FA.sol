@@ -110,12 +110,6 @@ contract TWOFA {
         return h % 1_000_000; // 6 digits
     }
 
-    // /// @notice helper: compute OTP off-chain format (view) for given address and timestamp
-    // /// @dev exposes what the expected OTP would be (seed is public on-chain)
-    // function viewExpectedOtp(address userAddress, uint256 timestamp) external view returns (uint256) {
-    //     require(users[userAddress].isRegistered, "User not registered");
-    //     return _generateOtp(users[userAddress].seed, timestamp);
-    // }
 
     /// @notice helper to check if a username is available
     function isNameTaken(string calldata username) external view returns (bool) {
